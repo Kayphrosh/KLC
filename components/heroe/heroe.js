@@ -1,7 +1,14 @@
 import React from 'react'
 import Navbar from '../navbar/navbar'
 import bg from '../../public/Images/pattern.svg'
+import MapButton from '../MapButton'
 const Heroe = () => {
+      const handleOpenYoutube = () => {
+    // Replace with the actual YouTube channel URL you want to link to
+    const youtubeUrl = 'https://youtube.com/@kingdomlifechapelile-ife197?si=4NPQZ9NE6ipxIXRp'; 
+
+    window.open(youtubeUrl, '_blank');
+  };
   return (
     <section className='heroe-container' style={{backgroundImage: `url(${bg.src})`,}}>
       <Navbar />
@@ -18,10 +25,11 @@ const Heroe = () => {
             <p className='heroe-para'>An arm of the Rock Solid Kingdom Life Ministries, a not for-profit and non-political organisation do firmly and solemnly resolve to provide for ourselves a constitution and to be governed by the provisions therein contained</p>
 
             <div className='heroe-cta'>
-                <button id='locate'>
+                <MapButton />
+                {/* <button id='locate'>
                     <p>Locate Church</p>
-                </button>
-                <button id='watch'>
+                </button> */}
+                <button onClick={handleOpenYoutube} id='watch' >
                     <img src="/Images/playIcon.svg" alt=""/>
                     <p>Watch Us Live</p>
                 </button>
