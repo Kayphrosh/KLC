@@ -52,7 +52,7 @@
     column-gap: 3rem;
     overflow-x: scroll;
     padding-bottom: 6rem;
-
+    transition: all 0.2s linear;
     @media (max-width: 968px) {
       margin-top: 4rem;
       padding-bottom: 4rem;
@@ -68,6 +68,7 @@
       border: 1px solid #ffffff45;
       padding: 2rem;
       padding-bottom: 3rem;
+      transition: all 0.2s linear;
 
       img {
         width: 100%;
@@ -130,6 +131,22 @@
     }
   }
 
+  .scroll-btn {
+    margin-top: 3rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    gap: 2rem;
+
+    button {
+        border: none;
+        background: none;
+
+        img {
+            width: 16px;
+        }
+    }
+  }
   /* Style the scrollbar */
   .founders::-webkit-scrollbar {
     height: 2px;

@@ -1,6 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react';
 
 const Founders = () => {
+
+    const scrollContainerRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollLeft -= 350; // Adjust scroll distance as needed
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollLeft += 350; // Adjust scroll distance as needed
+    }
+  };
   return (
     <div className='founders-container'>
         <div className='header'>
@@ -9,7 +23,7 @@ const Founders = () => {
             {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis,</p> */}
         </div>
 
-        <div className='founders'>
+        <div className='founders' ref={scrollContainerRef} data-simplebar>
 
             <div className='president'>
                 <img src="/Images/president.jpg" alt=""/>
@@ -46,9 +60,15 @@ const Founders = () => {
                     <h6>Abimbola Akinuliola</h6>                  
                 </div>
             </div>
-            {/* <div className='members'>
+        </div>
 
-            </div> */}
+        <div className='scroll-btn'>
+                  <button onClick={scrollLeft}>
+                    <img src="/Images/leftIcon.svg" alt=""/>
+                  </button>
+                  <button onClick={scrollRight}>
+                    <img src="/Images/rightIcon.svg" alt=""/>
+                  </button>
         </div>
     </div>
   )
