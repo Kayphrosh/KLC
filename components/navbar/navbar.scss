@@ -82,13 +82,20 @@
   }
   .hamburger-container {
     display: none;
+
     @media (max-width: 786px) {
+      
       display: flex;
       height: 40px;
       width: 40px;
       background: #520e44;
       justify-content: center;
       align-items: center;
+      border-radius: 5px;
+
+      img {
+        margin: 0;
+      }
     }
   }
 }

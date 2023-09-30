@@ -20,15 +20,6 @@ const Navbar = () => {
                 <li>
                     <a href='#'>Contact</a>
                 </li>
-                <li className='sm'>
-                    <a href='#'>
-                        <img src="/Images/TwitterIcon.svg" alt=""/>
-                    </a>
-                    <a href='#'>
-                        <img src="/Images/TiktokIcon.svg" alt=""/>
-                    </a>
-
-                </li>
             </ul>
 
             <button className='cta-btn'>
@@ -36,9 +27,8 @@ const Navbar = () => {
             </button>
 
             <div className='hamburger-container'>
-                <div>
+
                     <img src="/Images/menu.svg" alt=""/>
-                </div>
             </div>
         </div>
   )

@@ -14,14 +14,20 @@ const Event = () => {
             <div className='events'>
                 <div className='event'>
                     <p>Thursdays</p>
-                    <h6>Bible Study</h6>
-                    <button>Set Reminder</button>
+                    <h6>Bible Study | 5pm</h6>
+                    <button>
+                        <img src="/Images/calendarIcon.svg" alt=""/>
+                        <p>Set Reminder</p>
+                    </button>
                 </div>
 
                 <div className='event'>
                     <p>Sundays</p>
-                    <h6>Sunday Service</h6>
-                    <button>Set Reminder</button>
+                    <h6>Sunday Service | 9am</h6>
+                    <button>
+                        <img src="/Images/calendarIcon.svg" alt=""/>
+                        <p>Set Reminder</p>
+                    </button>
                 </div>
             </div>
 
