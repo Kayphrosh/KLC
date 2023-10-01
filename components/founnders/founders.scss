@@ -139,12 +139,16 @@
     gap: 2rem;
 
     button {
-        border: none;
-        background: none;
+      border: none;
+      background: none;
 
-        img {
-            width: 16px;
-        }
+      img {
+        width: 16px;
+      }
+    }
+    button:hover {
+      transform: scale(0.92);
+      transition: all 0.4s ease-in-out;
     }
   }
   /* Style the scrollbar */

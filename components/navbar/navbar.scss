@@ -80,11 +80,14 @@
       display: none;
     }
   }
+  .cta-btn:hover {
+    transform: scale(0.92);
+    transition: all 0.4s ease-in-out;
+  }
   .hamburger-container {
     display: none;
 
     @media (max-width: 786px) {
-
       display: flex;
       height: 40px;
       width: 40px;

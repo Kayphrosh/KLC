@@ -1,0 +1,22 @@
+.footer-container {
+  min-height: 250px;
+  padding: 0 120px;
+  background: #1a1a1a;
+  color: #fff;
+  position: relative;
+
+  @media (max-width: 1468px) {
+    padding: 0 50px;
+  }
+  @media (max-width: 986px) {
+    padding: 0 1rem;
+  }
+  small {
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+  }
+}
