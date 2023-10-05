@@ -64,8 +64,6 @@
       #locate {
         background: #ba8d4a;
         color: #fff;
-
-        color: #fff;
         max-width: 220px;
       }
       #watch {
@@ -75,6 +73,7 @@
         max-width: 250px;
         align-items: center;
         display: flex;
+        color: #fff;
       }
     }
     @media (max-width: 986px) {
@@ -88,6 +87,23 @@
         font-size: 16px;
         line-height: 170%;
         margin-top: 1rem;
+      }
+
+      .footer-cta {
+        button {
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          padding: 0 0.5rem;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        #locate {
+          flex-basis: 45%;
+        }
+        #watch {
+          flex-basis: 55%;
+        }
       }
     }
   }
@@ -116,9 +132,8 @@
         font-size: 12px;
       }
       .social-media {
-
         img {
-          height: 14px;
+          height: 16px;
         }
       }
     }
