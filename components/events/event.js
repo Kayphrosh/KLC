@@ -43,7 +43,7 @@ const Event = () => {
                 </div>
 
                 <div>
-                    {/* <img src="/Images/event.jpg" alt=""/> */}
+                    <img src="/Images/event.jpg" alt=""/>
 
 
                 </div>
