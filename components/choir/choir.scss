@@ -1,0 +1,35 @@
+.choir-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000ae;
+  background-blend-mode: multiply;
+
+  .choir-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    P {
+      font-size: 24px;
+      font-weight: 500;
+      color: #fff;
+    }
+    h3 {
+      margin-top: 1rem;
+      font-size: 36px;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+      max-width: 900px;
+      line-height: 170%;
+    }
+  }
+}
