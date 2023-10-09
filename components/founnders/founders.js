@@ -30,19 +30,27 @@ const Founders = () => {
 
                 <div>
                     <p>President</p>
-                    <h6>Ilerioluwa Oladele</h6>                  
+                    <h6>Ilerioluwa Odedele</h6>                  
                 </div>
             </div>
 
             <div className='president'>
-                <img src="/Images/vp2.jpg" alt=""/>
+                <img src="/Images/vp1.jpg" alt=""/>
 
                 <div>
                     <p>Vice President (Female)</p>
                     <h6>Favour Jokotye</h6>                  
                 </div>
             </div>
+            <div className='president'>
+                <img src="/Images/vp.jpg" alt=""/>
 
+                <div>
+                    <p>Vice President (Male)</p>
+                    <h6>Abimbola Akinuliola</h6>                  
+                </div>
+            </div>
+            
             <div className='president'>
                 <img src="/Images/sec.jpg" alt=""/>
 
@@ -52,14 +60,7 @@ const Founders = () => {
                 </div>
             </div>
 
-            <div className='president'>
-                <img src="/Images/vp.jpg" alt=""/>
 
-                <div>
-                    <p>Vice President (Male)</p>
-                    <h6>Abimbola Akinuliola</h6>                  
-                </div>
-            </div>
         </div>
 
         <div className='scroll-btn'>
