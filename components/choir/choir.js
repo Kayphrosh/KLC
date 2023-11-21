@@ -5,7 +5,7 @@ const Choir = () => {
   return (
     <div className='choir-container' style={{backgroundImage: `url(${bg.src})`,}}>
       <div className='choir-text'>
-        <p>KSF Choir</p>
+        <span>Our Kingdom Choir</span>
         <h3>Meet Kingdom Life Students' Fellowship Chior During Our Christmas Ceremony</h3>
       </div>
     </div>

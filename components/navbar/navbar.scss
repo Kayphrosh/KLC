@@ -36,8 +36,11 @@
     align-items: center;
     width: 100%;
     max-width: 380px;
-
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     li {
+      
       a {
         font-weight: 500;
         color: #1a1a1a;
@@ -123,7 +126,7 @@
   }
 
   .cta-btn {
-    width: 150px;
+    width: 100px;
     height: 42px;
     border-radius: 5px;
     color: #fff;

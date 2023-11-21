@@ -11,6 +11,7 @@
   }
   @media (max-width: 986px) {
     padding: 0 1rem;
+    margin: 80px 0;
   }
   .header {
     display: flex;
@@ -18,9 +19,12 @@
     align-items: center;
 
     span {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 500;
       color: #ba8d4a;
+      border-radius: 42px;
+      border: 1px solid rgba(148, 64, 115, 0.3);
+      padding: 0.5rem 2rem;
     }
     h3 {
       margin-top: 2rem;
@@ -36,11 +40,12 @@
       text-align: center;
 
       span {
-        font-size: 18px;
+        font-size: 16px;
+        padding: 0.3rem 2rem;
       }
       h3 {
         text-align: center;
-        font-size: 26px;
+        font-size: 24px;
         margin-top: 1rem;
       }
     }
@@ -64,17 +69,18 @@
       min-height: 500px;
       padding: 1.5rem;
       border-radius: 8px;
-      border: 0.5px solid #530e4546;
+      background: rgba(186, 141, 74, 0.07) !important;
+      // border: 0.5px solid #530e4546;
 
       span {
         // background: #d63434;
-        height: 49px;
-        width: 49px;
+        height: 52px;
+        width: 52px;
         border-radius: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 24px;
+        font-size: 22px;
         font-weight: 600;
         margin-bottom: 4rem;
       }
@@ -85,7 +91,7 @@
         margin-top: 2rem;
         font-size: 16px;
         line-height: 170%;
-        color: #4e4e4e;;
+        color: #4e4e4e;
       }
       a {
         margin-top: 2.5rem;
@@ -95,27 +101,31 @@
     }
 
     #first {
+      background: rgba(214, 52, 52, 0.05);
       span {
         background: rgba(214, 52, 52, 0.2);
         color: #d63434;
       }
     }
     #second {
+      background: rgba(29, 95, 209, 0.05);
       span {
         background: rgba(29, 95, 209, 0.2);
         color: #1d60d1;
       }
     }
     #third {
+      background: rgba(4, 77, 84, 0.05);
       span {
-        background: rgba(4, 77, 84, 0.2);
+        background: rgba(4, 77, 84, 0.122);
         color: #044e54;
       }
     }
     #forth {
+      background: rgba(236, 88, 255, 0.05);
       span {
         background: rgba(228, 153, 238, 0.2);
-        color: #e499ee;
+        color: #9800ac;
       }
     }
 

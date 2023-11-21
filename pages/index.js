@@ -1,26 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Heroe from '@/components/hero/hero'
-import About from '@/components/about/about'
-import Founders from '@/components/founnders/founders'
-import Event from '@/components/events/event'
-import Footer from '@/components/footer/footer'
-import Choir from '@/components/choir/choir'
-import President from '@/components/president/president '
-import { amp } from '@/next.config'
+import Landing from './landing';
+import Head from 'next/head';
+const Home = () => {
+  const render = () => {
+    return <Landing />;
+  };
 
-export default function Home() {
-  return (
-    <>
-      <Heroe />
-      <About/>
-      <President />
-      <Choir />
+  return render(
+          <Head>
+        <title>Kingdom Life Students' Fellowship | Home</title>
+        <meta name="description" content="Consultancy Firm" />
+        <link rel="canonical" href="https://www.suspadconsulting.com/" />
+      </Head>
+  );
+};
 
-      <Founders />
-      <Event />
-      <Footer />
-      
-    </>
-  )
-}
+export default Home;
