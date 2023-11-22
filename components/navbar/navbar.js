@@ -1,6 +1,8 @@
 import React,{ useState } from 'react'
-
+import { useRouter } from 'next/router';
 const Navbar = () => {
+
+    const router = useRouter()
     const [selected, setSelected] = useState(null);
   let i = 0;
   const toggle = (i) => {
@@ -9,6 +11,13 @@ const Navbar = () => {
     }
     setSelected(i);
   };
+        const handleOpenYoutube = () => {
+    // Replace with the actual YouTube channel URL you want to link to
+    const youtubeUrl = 'https://youtube.com/@kingdomlifechapelile-ife197?si=4NPQZ9NE6ipxIXRp'; 
+
+    window.open(youtubeUrl, '_blank');
+  };
+
   return (
         <div className='navbar-container'>
 
@@ -17,16 +26,16 @@ const Navbar = () => {
 
             <ul className='nav-desktop'>
                 <li>
-                    <a id='active-link' href='#'>Home</a>
+                    <a id='active-link' onClick={() => router.push('/')}>Home</a>
                 </li>
                 <li>
-                    <a href='#'>About</a>
+                    <a onClick={() => router.push('/advisors')}>Advisors</a>
                 </li>
                 <li>
-                    <a href='#'>Excecutives</a>
+                    <a onClick={() => router.push('/executives')}>Excecutives</a>
                 </li>
                 <li>
-                    <a href='#'>Contact</a>
+                    <a onClick={() => router.push('/contact')}>Contact</a>
                 </li>
             </ul>
 
@@ -47,21 +56,21 @@ const Navbar = () => {
             <div className={selected === i ? 'nav-mobile nav-mobile-display' : 'nav-mobile'}>
                 <ul className='nav-content'>
                     <li>
-                        <a id='active-link' href='#'>Home</a>
+                        <a id='active-link' onClick={() => router.push('/')}>Home</a>
                     </li>
                     <li>
-                        <a href='#'>About</a>
+                        <a onClick={() => router.push('/advisors')}>Advisors</a>
                     </li>
                     <li>
-                        <a href='#'>Excecutives</a>
+                        <a onClick={() => router.push('/excecutives')}>Excecutives</a>
                     </li>
                     <li>
-                        <a href='#'>Contact</a>
+                        <a onClick={() => router.push('/contact')}>Contact</a>
                     </li>
 
                     <div className='social-media-nav'>
                         <li>
-                            <a id='active-link' href='#'> <img src="/Images/ytIcon.svg" alt=""/></a>
+                            <a id='active-link' onClick={handleOpenYoutube}> <img src="/Images/ytIcon.svg" alt=""/></a>
                         </li>
                         <li>
                             <a href='#'><img src="/Images/waIcon.svg" alt=""/></a>

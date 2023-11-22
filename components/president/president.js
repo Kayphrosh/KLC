@@ -9,7 +9,7 @@ const President  = () => {
         <div className='president-msg'>
             <span>Meet The President</span>
             <h4>Bro. Ilerioluwa Odedele</h4>
-            <article>We are people called out and by God to exercise his will and authority upon the earth. What's life without consistent development, we have our doors opened wide and we suggest you come has you are, let God effect his change. In our meetings, we come to transact with God, where we exchange our burdens for the peace that only he can give. KLSF invites you to join this path as Jesus leads the way.</article>
+            <article>We are people called out by God to exercise His will and authority upon the earth. What's life without consistent development, we have our doors opened wide and we suggest you come as you are, let God effect His change. In our meetings, we come to transact with God, where we exchange our burdens for the peace that only He can give. KLSF invites you to join this path as Jesus leads the way.</article>
 
             <button>View Executives</button>
         </div>
