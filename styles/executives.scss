@@ -48,8 +48,10 @@
   }
 
   .exel {
-    display: block;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
+    display: flex;
+    // width: 100%;
     overflow: hidden;
     margin: 150px 0;
 
@@ -58,8 +60,9 @@
     }
 
     .executives {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      display: grid !important;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)) !important;
+      width: 100%;
       column-gap: 2rem;
       row-gap: 4rem;
       padding: 0 50px;
@@ -121,7 +124,7 @@
           border: 1px solid #05021326;
           border-radius: 24px;
           padding: 0.5rem 2rem;
-          margin-top: .5rem;
+          margin-top: 0.5rem;
 
           .dot {
             width: 2px;
