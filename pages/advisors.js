@@ -15,7 +15,7 @@ const founders = () => {
         <div className='founder-bio'>
 
 
-          <img src="/Images/president.jpg" alt=""/>
+          <img src="/Images/joint.jpg" alt=""/>
 
           <div className='founder-info'>
             {/* <span>Meet Our Pastors</span> */}
