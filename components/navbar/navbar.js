@@ -62,7 +62,7 @@ const Navbar = () => {
                         <a onClick={() => router.push('/advisors')}>Advisors</a>
                     </li>
                     <li>
-                        <a onClick={() => router.push('/excecutives')}>Excecutives</a>
+                        <a onClick={() => router.push('/executives')}>Excecutives</a>
                     </li>
                     <li>
                         <a onClick={() => router.push('/contact')}>Contact</a>

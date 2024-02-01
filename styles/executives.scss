@@ -67,7 +67,8 @@
       row-gap: 4rem;
       padding: 0 50px;
 
-      @media (max-width: 9768px) {
+      @media (max-width: 976px) {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
         padding: 0 1rem;
         display: flex;
         flex-direction: column;
@@ -137,8 +138,8 @@
           width: 100%;
 
           img {
-            height: 250px;
-            width: 250px;
+            height: 200px;
+            width: 200px;
           }
 
           .executive-name {
