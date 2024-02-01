@@ -26,7 +26,7 @@ const Footer  = () => {
 
         <div className='sm-container'>
             <small>
-                ©2023 KSF. All Rights Reserved.
+                ©2024 KSF. All Rights Reserved.
             </small>
 
             <div className='social-media'>
