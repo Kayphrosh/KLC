@@ -12,7 +12,7 @@ const Footer  = () => {
 
         <div className='footer'>
           <h3>Would You Like To Join Us? Contact Us </h3>
-          <p id='tttt'>Join over 100 student in Kingdom Life Students' Fellowship today</p>
+          <p id='tttt'>Join over 100 student in Kingdom Life Chapel Students' Fellowship today</p>
 
           <div className='footer-cta'>
                   <button id='locate'>Join Us</button>

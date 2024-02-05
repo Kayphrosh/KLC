@@ -37,6 +37,9 @@ const Navbar = () => {
                 <li>
                     <a onClick={() => router.push('/contact')}>Contact</a>
                 </li>
+                <li>
+                    <a onClick={() => router.push('https://oauife.edu.ng/')} target="_blank">OAU</a>
+                </li>
             </ul>
 
             <button className='cta-btn'>

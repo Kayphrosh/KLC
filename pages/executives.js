@@ -25,7 +25,7 @@ const executives = () => {
       img: '/Images/vp1.jpg',
       position: 'Vice President (Female)',
       name: 'Jokotoye Favour',
-      department: 'Accounting',
+      department: 'Adult education and LL.',
       level: '300LV',
     },
     {
@@ -65,16 +65,16 @@ const executives = () => {
       img: '/Images/pipe.jpg',
       position: 'President',
       name: 'Michael Pipeoluwa Adeoye',
-      department: 'Accounting',
+      department: 'Quantity Survey',
       level: '400LV',
     },
     {
       id: 4,
       img: '/Images/henry.png',
-      position: 'President',
+      position: 'Organising Sec',
       name: 'Henry Bayai',
-      department: 'Accounting',
-      level: '400LV',
+      department: 'Mech Engineering.',
+      level: '300LV',
     },
     {
       id: 4,
@@ -105,7 +105,7 @@ const executives = () => {
       img: '/Images/ayo.jpg',
       position: 'Academic Sec.',
       name: 'Akin-Akinnate Ayomide',
-      department: 'Electrical & Electronics Engineering',
+      department: 'Elect Elect Engineering',
       level: '300LV',
     },
   ];

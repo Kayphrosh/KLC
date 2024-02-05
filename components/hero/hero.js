@@ -20,7 +20,7 @@ const Heroe = () => {
                <p> Kingdom Life Chapel</p>
             </span>
 
-            <h1>Welcome To <br/>Kingdom life Students' Fellowship</h1>
+            <h1>Welcome To <br/>Kingdom life Chapel <br></br> Students' Fellowship</h1>
 
             <p className='heroe-para'>An arm of the Rock Solid Kingdom Life Ministries, a not for-profit and non-political organisation do firmly and solemnly resolve to provide for ourselves a constitution and to be governed by the provisions therein contained</p>
 
